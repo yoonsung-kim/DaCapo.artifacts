@@ -1,0 +1,3 @@
+[submodule "orin-baseline/ext/ekya"]
+	path = orin-baseline/ext/ekya
+	url = https://github.com/edge-video-services/ekya.git
