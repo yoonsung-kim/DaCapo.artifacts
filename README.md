@@ -284,11 +284,11 @@ export SUMMARY_DIR=<directory-to-save-summarized-result>
 
 ```shell
 cd script/summarize
-./figure_9.py --output-root $OUTPUT_DIR --summary-root $SUMMARY_DIR
-./figure_10.py --output-root $OUTPUT_DIR --summary-root $SUMMARY_DIR
-./figure_11.py --output-root $OUTPUT_DIR --summary-root $SUMMARY_DIR
-./figure_12.py --output-root $OUTPUT_DIR --summary-root $SUMMARY_DIR
-./table_v.py --output-root $OUTPUT_DIR --summary-root $SUMMARY_DIR
+python ./figure_9.py --output-root $OUTPUT_DIR --summary-root $SUMMARY_DIR
+python ./figure_10.py --output-root $OUTPUT_DIR --summary-root $SUMMARY_DIR
+python ./figure_11.py --output-root $OUTPUT_DIR --summary-root $SUMMARY_DIR
+python ./figure_12.py --output-root $OUTPUT_DIR --summary-root $SUMMARY_DIR
+python ./table_v.py --output-root $OUTPUT_DIR --summary-root $SUMMARY_DIR
 ```
 
 ## 3.3. Expected summarized result
